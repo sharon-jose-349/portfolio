@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+  text-align: center;
+}
+
+.head {
+  background: #007acc;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+.head h1 {
+  font-size: 2rem;
+}
+
+.head h2 {
+  margin-top: 0.5rem;
+}
+
+.head p {
+  margin-top: 0.5rem;
+}
+
+.profile img {
+  border-radius: 10%;
+  margin: 1.5rem 0;
+}
+
+section {
+  background: white;
+  margin: 1rem auto;
+  padding: 1.5rem;
+  max-width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #007acc;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+.skills p {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contact p {
+  margin: 0.5rem 0;
+}
+
+footer {
+  background: #333;
+  color: white;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 600px) {
+  section {
+    margin: 0.5rem;
+  }
+}
